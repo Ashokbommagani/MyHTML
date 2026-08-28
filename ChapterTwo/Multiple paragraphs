@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Multiple Paragraphs</title>
+    </head>
+    <body>
+        <h1>HTML</h1>
+        <p>HTML Stands for hyper text markup languange </p>
+        <p>HTML provides Structure and content of webpages</p>
+    </body>
+</html>
