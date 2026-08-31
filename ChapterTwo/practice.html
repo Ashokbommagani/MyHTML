@@ -2,15 +2,23 @@
 <html>
     <head>
         <title>Practice</title>
+        <style>
+            #main-heading {
+                color: red;
+            }
+        </style>
+        <button id="myButton">
+    Click Me
+</button>
     </head>
     <body>
-        HTML:
-<h1 id="main-heading">
-    Welcome to HTML
-</h1>
-CSS:
-#main-heading {
-    color: blue;
-}
+        <h1 id="main-heading">
+            Welcome to HTML
+        </h1>
+        <script>
+    const button = document.getElementById("myButton");
+
+    button.textContent = "Clicked!";
+</script>
     </body>
 </html>
