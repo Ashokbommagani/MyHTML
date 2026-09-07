@@ -117,13 +117,12 @@
     <br>
 
     <label for="country">Country:</label>
-
-    <select id="country" name="country">
-        <option value="">Select Country</option>
+    <datalist id="Countries">
         <option value="india">India</option>
         <option value="usa">USA</option>
         <option value="uk">UK</option>
-    </select>
+    </datalist>
+    <input type="text" id="country" name="country" list="Countries">
 
     <br><br>
 
@@ -152,8 +151,6 @@
     <button type="button" onclick="alert('Button clicked!')">
         Normal Button
     </button>
-
 </form>
-
 </body>
 </html>
